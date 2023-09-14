@@ -7,8 +7,12 @@ struct MyApp: App {
             ScrollView {
                 ContentView()
             }
-            ScrollView {
-                StackView()
+            ZStack {
+                Color.black
+                    .ignoresSafeArea()
+                ScrollView {
+                    StackView()
+                }
             }
         }
     }
