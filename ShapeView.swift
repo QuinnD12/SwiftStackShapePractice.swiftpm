@@ -11,7 +11,7 @@ struct ShapeView: View {
     }
 }
 
-struct ShapeViewPreviw: PreviewProvider {
+struct ShapeViewPreview: PreviewProvider {
     static var previews: some View {
         ShapeView()
     }
