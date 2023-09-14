@@ -4,7 +4,15 @@ import SwiftUI
 struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrollView {
+                ContentView()
+            }
+            ScrollView {
+                ZStack {
+                    Color.black
+                    StackView()
+                }
+            }
         }
     }
 }

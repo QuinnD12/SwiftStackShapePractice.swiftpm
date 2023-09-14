@@ -1,12 +1,3 @@
-//
-//  StackView.swift
-//  SwiftStackShapePractice
-//
-
-
-//  Created by Quinn B. Davis on 9/8/23.
-//
-
 import SwiftUI
 
 struct CalcButton: View {
