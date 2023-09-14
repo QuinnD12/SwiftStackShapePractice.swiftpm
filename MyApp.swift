@@ -6,10 +6,10 @@ struct MyApp: App {
         WindowGroup {
             ScrollView {
                 ContentView()
-            }.ignoresSafeArea()
+            }
             ScrollView {
                 StackView()
-            }.ignoresSafeArea()
+            }
         }
     }
 }
