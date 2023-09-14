@@ -8,10 +8,7 @@ struct MyApp: App {
                 ContentView()
             }
             ScrollView {
-                ZStack {
-                    Color.black
-                    StackView()
-                }
+                StackView()
             }
         }
     }
